@@ -7,6 +7,7 @@ const server = http.createServer((req, res) => {
 
   if (method === 'GET' && url === '/users') {
     return res
+      .setHeader('Content-Type', 'application/json')
       .end(JSON.stringify(users))
   }
 
