@@ -12,7 +12,7 @@
 //   .pipe(process.stdout)
 
 
-import { Readable } from 'node:stream'
+import { Readable, Writable } from 'node:stream'
 
 /* 
   No node toda porta de entrada e saída é uma stream
@@ -48,5 +48,24 @@ class OneToHundredStream extends Readable {
   }
 }
 
+class MultiplyByTenStream extends Writable {
+  /*
+    DENTRO DE UMA STREAM DE ESCRITA NÃO RETORNA NADA.
+      ELA PROCESSA O DADO.
+      NUNCA VAI TRANSFORMAR UM DADO EM UMA OUTRA COISA APENAS VAI PROCESSAR O DADO
+
+    chunk -> pedaço lido da stream de leitura, tudo que é enviado no this.push(). Ex:
+      const buf = Buffer.from(String(i))
+      this.push(buf)
+    encoding -> como a informação está codificada
+    callback -> função que a stream de escrita precisa chamar quando ela TERMINOU de
+    fazer o que ela precisava fazer com aquela informação
+  */
+  _write(chunk, encoding, callback) {
+    console.log(Number(chunk.toString() * 10))
+    callback()
+  }
+}
+
 new OneToHundredStream()
-  .pipe(process.stdout)
+  .pipe(new MultiplyByTenStream())
