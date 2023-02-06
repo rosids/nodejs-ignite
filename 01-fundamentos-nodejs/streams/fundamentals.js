@@ -2,6 +2,9 @@
   Readable stream -> stream de leitura, lê dados
   Writable stream -> stream de escrita, processa dados
   Transform stream -> stream de transformação, transforma dados
+  Duplex stream -> pode ter o método de leitura e escrita nela, ou seja, pode fazer
+  qualquer tipo de operação.
+    Ex: arquivo físico do sistema. Você pode ler e escrever nele.
 */
 
 /* 
