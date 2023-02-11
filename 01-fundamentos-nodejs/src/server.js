@@ -1,4 +1,5 @@
 import http from 'node:http' // utiliza-se o node: para informar que é um módulo interno do node
+import { randomUUID } from 'node:crypto'
 import { Database } from './database.js'
 import { json } from './middlewares/json.js'
 
@@ -25,7 +26,7 @@ const server = http.createServer(async (req, res) => {
     const { name, email } = req.body
 
     const user = {
-      id: 1,
+      id: randomUUID(),
       name,
       email
     }
