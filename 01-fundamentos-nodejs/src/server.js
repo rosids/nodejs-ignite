@@ -1,4 +1,5 @@
 import http from 'node:http' // utiliza-se o node: para informar que é um módulo interno do node
+import { Database } from './database.js'
 import { json } from './middlewares/json.js'
 
 /* 
@@ -6,7 +7,8 @@ stateful -> dados salvos em memória, ao reiniciar o servidor os dados são perd
 stateless -> dados persistentes, ou seja, salvos em fontes externas.
   Ex: banco de dados ou arquivo de texto.
 */
-const users = []
+
+const database = new Database()
 
 const server = http.createServer(async (req, res) => {
   const { method, url } = req
@@ -14,18 +16,21 @@ const server = http.createServer(async (req, res) => {
   await json(req, res)
 
   if (method === 'GET' && url === '/users') {
-    return res
-      .end(JSON.stringify(users))
+    const users = database.select('users')
+
+    return res.end(JSON.stringify(users))
   }
 
   if (method === 'POST' && url === '/users') {
     const { name, email } = req.body
 
-    users.push({
+    const user = {
       id: 1,
       name,
       email
-    })
+    }
+
+    database.insert('users', user)
 
     return res.writeHead(201).end()
   }
