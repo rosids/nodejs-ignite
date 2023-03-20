@@ -2,6 +2,7 @@ import http from 'node:http' // utiliza-se o node: para informar que é um módu
 
 import { json } from './middlewares/json.js'
 import { routes } from './routes.js'
+import { extractQueryParams } from './utils/extract-query-params.js'
 
 /* 
 stateful -> dados salvos em memória, ao reiniciar o servidor os dados são perdidos.
@@ -32,7 +33,10 @@ const server = http.createServer(async (req, res) => {
   if (route) {
     const routeParams = req.url.match(route.path)
 
-    req.params = { ...routeParams.groups }
+    const { query, ...params } = routeParams.groups
+
+    req.params = params
+    req.query = query ? extractQueryParams(query) : {}
 
     return route.handler(req, res)
   }
