@@ -12,7 +12,7 @@
 - [x] Configurando o Knex
 - [x] Criando primeira migration
 - [x] Criando tabela de transações
-- [ ] Realizando queries com Knex
+- [x] Realizando queries com Knex
 - [ ] Variáveis ambiente
 - [ ] Tratando env com Zod
 
