@@ -11,7 +11,7 @@
 - [x] Estratégias de acesso ao banco
 - [x] Configurando o Knex
 - [x] Criando primeira migration
-- [ ] Criando tabela de transações
+- [x] Criando tabela de transações
 - [ ] Realizando queries com Knex
 - [ ] Variáveis ambiente
 - [ ] Tratando env com Zod
