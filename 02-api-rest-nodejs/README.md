@@ -13,7 +13,7 @@
 - [x] Criando primeira migration
 - [x] Criando tabela de transações
 - [x] Realizando queries com Knex
-- [ ] Variáveis ambiente
+- [x] Variáveis ambiente
 - [ ] Tratando env com Zod
 
 ### Implementando as rotas
