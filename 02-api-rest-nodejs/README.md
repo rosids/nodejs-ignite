@@ -14,7 +14,7 @@
 - [x] Criando tabela de transações
 - [x] Realizando queries com Knex
 - [x] Variáveis ambiente
-- [ ] Tratando env com Zod
+- [x] Tratando env com Zod
 
 ### Implementando as rotas
 
