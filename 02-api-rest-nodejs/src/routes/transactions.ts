@@ -3,6 +3,9 @@ import { z } from 'zod'
 import { randomUUID } from 'node:crypto'
 import { knex } from '../database'
 
+// Cookies <-> Formas da gente manter contexto entre as requisições
+//  Mesmo que o usuário não está logado é possível identificá-lo
+
 // PLUGIN DO FASTIFY
 // TODO PLUGIN PRECISA SER ASSÍNCRONO(ASYNC)
 // No Knex todo retorno será um array a menos que haja o método first no final
@@ -44,10 +47,24 @@ export async function transactionsRoutes(app: FastifyInstance) {
       request.body,
     )
 
+    let sessionId = request.cookies.sessionId
+
+    if (!sessionId) {
+      sessionId = randomUUID()
+
+      reply.cookie('sessionId', sessionId, {
+        // onde esse cookie pode ser usado -> nesse caso todas as rotas da aplicação
+        path: '/',
+        // duração em milissegundos do cookie
+        maxAge: 1000 * 60 * 60 * 24 * 7, // 7 days
+      })
+    }
+
     await knex('transactions').insert({
       id: randomUUID(),
       title,
       amount: type === 'credit' ? amount : amount * -1,
+      session_id: sessionId,
     })
 
     return reply.status(201).send()

@@ -52,7 +52,7 @@
 - [x] Tipagem no Knex
 - [x] Listagem das transações
 - [x] Resumo de transações
-- [ ] Utilizando cookies no Fastify
+- [x] Utilizando cookies no Fastify
 - [ ] Validando existência do cookie
 - [ ] Configurando um hook global
 
