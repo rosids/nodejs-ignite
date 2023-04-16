@@ -54,7 +54,7 @@
 - [x] Resumo de transações
 - [x] Utilizando cookies no Fastify
 - [x] Validando existência do cookie
-- [ ] Configurando um hook global
+- [x] Configurando um hook global
 
 #### Testes automatizados
 
