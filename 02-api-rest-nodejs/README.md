@@ -12,7 +12,7 @@
 #### Requisitos Funcionais(RF)
 
 - [x] O usuário deve poder criar uma nova transação;
-- [ ] O usuário deve poder obter um extrato da sua conta;
+- [x] O usuário deve poder obter um extrato da sua conta;
 - [x] O usuário deve poder listar todas transações que já ocorreram;
 - [x] O usuário deve poder visualizar uma transação única.
 
@@ -51,7 +51,7 @@
 - [x] Criação de transações
 - [x] Tipagem no Knex
 - [x] Listagem das transações
-- [ ] Resumo de transações
+- [x] Resumo de transações
 - [ ] Utilizando cookies no Fastify
 - [ ] Validando existência do cookie
 - [ ] Configurando um hook global

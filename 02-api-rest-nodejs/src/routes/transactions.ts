@@ -5,6 +5,7 @@ import { knex } from '../database'
 
 // PLUGIN DO FASTIFY
 // TODO PLUGIN PRECISA SER ASSÍNCRONO(ASYNC)
+// No Knex todo retorno será um array a menos que haja o método first no final
 export async function transactionsRoutes(app: FastifyInstance) {
   app.get('/', async () => {
     const transactions = await knex('transactions').select()
@@ -22,6 +23,14 @@ export async function transactionsRoutes(app: FastifyInstance) {
     const transaction = await knex('transactions').where('id', id).first()
 
     return { transaction }
+  })
+
+  app.get('/summary', async () => {
+    const summary = await knex('transactions')
+      .sum('amount', { as: 'amount' })
+      .first()
+
+    return { summary }
   })
 
   app.post('/', async (request, reply) => {
