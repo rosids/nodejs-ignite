@@ -13,8 +13,8 @@
 
 - [x] O usuário deve poder criar uma nova transação;
 - [ ] O usuário deve poder obter um extrato da sua conta;
-- [ ] O usuário deve poder listar todas transações que já ocorreram;
-- [ ] O usuário deve poder visualizar uma transação única.
+- [x] O usuário deve poder listar todas transações que já ocorreram;
+- [x] O usuário deve poder visualizar uma transação única.
 
 #### Regras de Negócios(RN)
 
@@ -50,7 +50,7 @@
 - [x] Plugins do Fastify
 - [x] Criação de transações
 - [x] Tipagem no Knex
-- [ ] Listagem das transações
+- [x] Listagem das transações
 - [ ] Resumo de transações
 - [ ] Utilizando cookies no Fastify
 - [ ] Validando existência do cookie
