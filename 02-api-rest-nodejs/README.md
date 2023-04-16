@@ -1,4 +1,32 @@
-### Estrutura da aplicação
+<a id="sumario"></a>
+
+## Sumário
+
+- ##### [Objetivos da aplicação](#objetivos)
+- ##### [Módulos do projeto](#modulos)
+
+<a id="objetivos"></a>
+
+## Objetivos da aplicação
+
+#### Requisitos Funcionais(RF)
+
+- [ ] O usuário deve poder criar uma nova transação;
+- [ ] O usuário deve poder obter um extrato da sua conta;
+- [ ] O usuário deve poder listar todas transações que já ocorreram;
+- [ ] O usuário deve poder visualizar uma transação única.
+
+#### Regras de Negócios(RN)
+
+- [ ] A transação pode ser do tipo crédito que somará ao valor total, ou débito que será subtraído;
+- [ ] Deve ser possível identificar o usuário entre as requisições;
+- [ ] O usuário só pode visualizar transações que ele criou.
+
+<a id="modulos"></a>
+
+## Módulos do projeto
+
+#### Estrutura da aplicação
 
 - [x] Introdução
 - [x] Conhecendo o Fastify
@@ -6,7 +34,7 @@
 - [x] Criando aplicação
 - [x] Configurando ESLint
 
-### Banco de dados
+#### Banco de dados
 
 - [x] Estratégias de acesso ao banco
 - [x] Configurando o Knex
@@ -16,9 +44,9 @@
 - [x] Variáveis ambiente
 - [x] Tratando env com Zod
 
-### Implementando as rotas
+#### Implementando as rotas
 
-- [ ] Requisitos da aplicação
+- [x] Requisitos da aplicação
 - [ ] Plugins do Fastify
 - [ ] Criação de transações
 - [ ] Tipagem no Knex
@@ -28,7 +56,7 @@
 - [ ] Validando existência do cookie
 - [ ] Configurando um hook global
 
-### Testes automatizados
+#### Testes automatizados
 
 - [ ] Entendo testes automatizados
 - [ ] Criando primeiro teste
@@ -38,7 +66,9 @@
 - [ ] Configurando banco de testes
 - [ ] Finalizando testes da aplicação
 
-### Preparando app p/ deploy
+#### Preparando app p/ deploy
 
 - [ ] Preparando para deploy
 - [ ] Deploy do app no Render
+
+##### [Topo](#sumario)
