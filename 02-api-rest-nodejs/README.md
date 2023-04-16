@@ -47,7 +47,7 @@
 #### Implementando as rotas
 
 - [x] Requisitos da aplicação
-- [ ] Plugins do Fastify
+- [x] Plugins do Fastify
 - [ ] Criação de transações
 - [ ] Tipagem no Knex
 - [ ] Listagem das transações
