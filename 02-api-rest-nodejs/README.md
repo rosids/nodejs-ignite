@@ -49,7 +49,7 @@
 - [x] Requisitos da aplicação
 - [x] Plugins do Fastify
 - [x] Criação de transações
-- [ ] Tipagem no Knex
+- [x] Tipagem no Knex
 - [ ] Listagem das transações
 - [ ] Resumo de transações
 - [ ] Utilizando cookies no Fastify
