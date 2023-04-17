@@ -2,3 +2,4 @@
 **/db.json
 **/**.db
 **/.env
+**/.env.test
