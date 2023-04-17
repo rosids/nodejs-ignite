@@ -59,7 +59,7 @@
 #### Testes automatizados
 
 - [x] Entendo testes automatizados
-- [ ] Criando primeiro teste
+- [x] Criando primeiro teste
 - [ ] Testando criação de transação
 - [ ] Categorizando os testes
 - [ ] Testando listagem de transações
