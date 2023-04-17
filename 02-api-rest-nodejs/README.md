@@ -64,7 +64,7 @@
 - [x] Categorizando os testes
 - [x] Testando listagem de transações
 - [x] Configurando banco de testes
-- [ ] Finalizando testes da aplicação
+- [x] Finalizando testes da aplicação
 
 #### Preparando app p/ deploy
 
