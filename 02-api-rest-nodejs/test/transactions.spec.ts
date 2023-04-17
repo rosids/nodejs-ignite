@@ -1,6 +1,9 @@
-import { afterAll, beforeAll, describe, expect, it } from 'vitest'
+import { afterAll, beforeAll, beforeEach, describe, expect, it } from 'vitest'
 import request from 'supertest'
 import { app } from '../src/app'
+
+// permite executar comandos do terminal por dentro da aplicação node
+import { execSync } from 'node:child_process'
 
 describe('Transactions routes', () => {
   beforeAll(async () => {
@@ -11,6 +14,11 @@ describe('Transactions routes', () => {
   afterAll(async () => {
     // fecha a aplicação, ou seja, remove da memória após execução de todos os testes
     await app.close()
+  })
+
+  beforeEach(() => {
+    execSync('npm run knex migrate:rollback --all')
+    execSync('npm run knex migrate:latest')
   })
 
   it('should be to create a new transaction', async () => {
