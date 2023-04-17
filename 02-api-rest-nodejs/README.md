@@ -61,7 +61,7 @@
 - [x] Entendo testes automatizados
 - [x] Criando primeiro teste
 - [x] Testando criação de transação
-- [ ] Categorizando os testes
+- [x] Categorizando os testes
 - [ ] Testando listagem de transações
 - [ ] Configurando banco de testes
 - [ ] Finalizando testes da aplicação
