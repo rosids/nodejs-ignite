@@ -62,7 +62,7 @@
 - [x] Criando primeiro teste
 - [x] Testando criação de transação
 - [x] Categorizando os testes
-- [ ] Testando listagem de transações
+- [x] Testando listagem de transações
 - [ ] Configurando banco de testes
 - [ ] Finalizando testes da aplicação
 
