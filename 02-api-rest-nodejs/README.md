@@ -68,7 +68,7 @@
 
 #### Preparando app p/ deploy
 
-- [ ] Preparando para deploy
+- [x] Preparando para deploy
 - [ ] Deploy do app no Render
 
 ##### [Topo](#sumario)
