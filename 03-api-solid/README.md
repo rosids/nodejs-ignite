@@ -56,7 +56,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] Definindo requisitos e regras
 - [x] Criando projeto Node.js
 - [x] Usando versões exatas do NPM
-- [ ] Carregando variáveis ambiente
+- [x] Carregando variáveis ambiente
 - [ ] Configurando ESLint
 - [ ] Criando aliases de importação
 
