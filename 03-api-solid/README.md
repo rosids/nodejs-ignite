@@ -54,7 +54,7 @@ Desenvolvido utilizando o node v18.16.1
 
 - [x] Introdução
 - [x] Definindo requisitos e regras
-- [ ] Criando projeto Node.js
+- [x] Criando projeto Node.js
 - [ ] Usando versões exatas do NPM
 - [ ] Carregando variáveis ambiente
 - [ ] Configurando ESLint
