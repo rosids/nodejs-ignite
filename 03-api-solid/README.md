@@ -58,7 +58,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] Usando versões exatas do NPM
 - [x] Carregando variáveis ambiente
 - [x] Configurando ESLint
-- [ ] Criando aliases de importação
+- [x] Criando aliases de importação
 
 ### Integração com Prisma ORM
 
