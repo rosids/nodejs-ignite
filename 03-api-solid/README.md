@@ -57,7 +57,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] Criando projeto Node.js
 - [x] Usando versões exatas do NPM
 - [x] Carregando variáveis ambiente
-- [ ] Configurando ESLint
+- [x] Configurando ESLint
 - [ ] Criando aliases de importação
 
 ### Integração com Prisma ORM
