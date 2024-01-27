@@ -65,7 +65,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] Integração com Prisma ORM
 - [x] Fundamentos do Docker
 - [x] PostgreSQL com Docker
-- [ ] Utilizando o Docker Compose
+- [x] Utilizando o Docker Compose
 - [ ] Criando schema do Prisma
 - [ ] Relacionamentos entre tabelas
 
