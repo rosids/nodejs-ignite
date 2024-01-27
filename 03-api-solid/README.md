@@ -67,7 +67,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] PostgreSQL com Docker
 - [x] Utilizando o Docker Compose
 - [x] Criando schema do Prisma
-- [ ] Relacionamentos entre tabelas
+- [x] Relacionamentos entre tabelas
 
 ### Caso de uso e design patterns
 
