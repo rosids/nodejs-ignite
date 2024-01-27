@@ -10,6 +10,6 @@ Nesse primeiro módulo iremos desenvolver uma API RESTful com Node.js focada nos
 
 Nesse módulo iremos desenvolver uma API REST, mas dessa vez utilizando o Fastify, Knex, TypeScript e outras ferramentas para auxiliar durante o desenvolvimento.
 
-## Projeto 3 - API Node.js com SOLID
+## [Projeto 3 - API Node.js com SOLID](https://github.com/rosids/nodejs-ignite/tree/03-api-solid/03-api-solid)
 
 Nesse projeto será desenvolvido uma aplicação para check-ins em academias. Aqui você irá aprender sobre alguns conceitos do SOLID, Design Patterns, Docker para iniciar o banco de dados, JWT e Refresh Token, RBAC e diversos outros conceitos.
