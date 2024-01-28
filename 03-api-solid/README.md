@@ -75,7 +75,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] Controller de registro
 - [x] Hash da senha e validação
 - [x] Caso de uso de registro
-- [ ] Repository Pattern
+- [x] Repository Pattern
 - [ ] Inversão de dependências
 - [ ] Interface do repositório
 - [ ] Lidando com erros do use case
