@@ -71,7 +71,7 @@ Desenvolvido utilizando o node v18.16.1
 
 ### Caso de uso e design patterns
 
-- [ ] Criação de um usuário
+- [x] Criação de um usuário
 - [ ] Controller de registro
 - [ ] Hash da senha e validação
 - [ ] Caso de uso de registro
