@@ -77,7 +77,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] Caso de uso de registro
 - [x] Repository Pattern
 - [x] Inversão de dependências
-- [ ] Interface do repositório
+- [x] Interface do repositório
 - [ ] Lidando com erros do use case
 - [ ] Handler de erros global
 
