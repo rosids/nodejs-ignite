@@ -78,7 +78,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] Repository Pattern
 - [x] Inversão de dependências
 - [x] Interface do repositório
-- [ ] Lidando com erros do use case
+- [x] Lidando com erros do use case
 - [ ] Handler de erros global
 
 ### Design Patterns & Testes
