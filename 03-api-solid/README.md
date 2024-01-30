@@ -79,7 +79,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] Inversão de dependências
 - [x] Interface do repositório
 - [x] Lidando com erros do use case
-- [ ] Handler de erros global
+- [x] Handler de erros global
 
 ### Design Patterns & Testes
 
