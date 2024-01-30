@@ -76,7 +76,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] Hash da senha e validação
 - [x] Caso de uso de registro
 - [x] Repository Pattern
-- [ ] Inversão de dependências
+- [x] Inversão de dependências
 - [ ] Interface do repositório
 - [ ] Lidando com erros do use case
 - [ ] Handler de erros global
