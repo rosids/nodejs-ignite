@@ -87,9 +87,9 @@ Desenvolvido utilizando o node v18.16.1
 - [x] Primeiro teste unitário
 - [x] In-Memory Databases
 - [x] Gerando coverage de testes
-- [ ] Utilizando UI do Vitest
+- [x] Utilizando UI do Vitest
 
-### Utilizando UI do Vitest
+### Implementando casos de uso
 
 - [ ] Caso de uso de autenticação
 - [ ] Testes e controller de autenticação
