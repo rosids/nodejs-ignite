@@ -84,7 +84,7 @@ Desenvolvido utilizando o node v18.16.1
 ### Design Patterns & Testes
 
 - [x] Configurando Vitest
-- [ ] Primeiro teste unitário
+- [x] Primeiro teste unitário
 - [ ] In-Memory Databases
 - [ ] Gerando coverage de testes
 - [ ] Utilizando UI do Vitest
