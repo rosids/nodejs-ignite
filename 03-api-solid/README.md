@@ -85,7 +85,7 @@ Desenvolvido utilizando o node v18.16.1
 
 - [x] Configurando Vitest
 - [x] Primeiro teste unitário
-- [ ] In-Memory Databases
+- [x] In-Memory Databases
 - [ ] Gerando coverage de testes
 - [ ] Utilizando UI do Vitest
 
