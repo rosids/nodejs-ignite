@@ -92,7 +92,7 @@ Desenvolvido utilizando o node v18.16.1
 ### Implementando casos de uso
 
 - [x] Caso de uso de autenticação
-- [ ] Testes e controller de autenticação
+- [x] Testes e controller de autenticação
 - [ ] Refatorando instâncias nos testes
 - [ ] Utilizando Factory Pattern
 - [ ] Caso de uso de perfil
