@@ -93,7 +93,7 @@ Desenvolvido utilizando o node v18.16.1
 
 - [x] Caso de uso de autenticação
 - [x] Testes e controller de autenticação
-- [ ] Refatorando instâncias nos testes
+- [x] Refatorando instâncias nos testes
 - [ ] Utilizando Factory Pattern
 - [ ] Caso de uso de perfil
 - [ ] Caso de uso de check-in
