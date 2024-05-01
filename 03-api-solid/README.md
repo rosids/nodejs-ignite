@@ -96,7 +96,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] Refatorando instâncias nos testes
 - [x] Utilizando Factory Pattern
 - [x] Caso de uso de perfil
-- [ ] Caso de uso de check-in
+- [x] Caso de uso de check-in
 - [ ] TDD & Mocking
 - [ ] Validando data do check-in
 - [ ] Validando distância do check-in
