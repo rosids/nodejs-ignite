@@ -20,8 +20,8 @@ Desenvolvido utilizando o node v18.16.1
 ### RFs (Requisitos funcionais)
 
 - [x] Deve ser possível se cadastrar;
-- [ ] Deve ser possível se autenticar;
-- [ ] Deve ser possível obter o perfil de um usuário logado;
+- [x] Deve ser possível se autenticar;
+- [x] Deve ser possível obter o perfil de um usuário logado;
 - [ ] Deve ser possível obter o número de check-ins realizados pelo usuário logado;
 - [ ] Deve ser possível o usuário obter o seu histórico de check-ins;
 - [ ] Deve ser possível o usuário buscar academias próximas;
@@ -95,7 +95,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] Testes e controller de autenticação
 - [x] Refatorando instâncias nos testes
 - [x] Utilizando Factory Pattern
-- [ ] Caso de uso de perfil
+- [x] Caso de uso de perfil
 - [ ] Caso de uso de check-in
 - [ ] TDD & Mocking
 - [ ] Validando data do check-in
