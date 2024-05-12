@@ -33,7 +33,7 @@ Desenvolvido utilizando o node v18.16.1
 ### RNs (Regras de negócio)
 
 - [x] O usuário não deve poder se cadastrar com um e-mail duplicado;
-- [ ] O usuário não pode fazer 2 check-ins no mesmo dia;
+- [x] O usuário não pode fazer 2 check-ins no mesmo dia;
 - [ ] O usuário não pode fazer check-in se não estiver perto (100m) da academia;
 - [ ] O check-in só pode ser validado até 20 minutos após ser criado;
 - [ ] O check-in só pode ser validado por administradores;
@@ -98,7 +98,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] Caso de uso de perfil
 - [x] Caso de uso de check-in
 - [x] TDD & Mocking
-- [ ] Validando data do check-in
+- [x] Validando data do check-in
 - [ ] Validando distância do check-in
 - [ ] Caso de uso de criação de academia
 - [ ] Caso de uso de histórico
