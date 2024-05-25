@@ -23,7 +23,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] Deve ser possível se autenticar;
 - [x] Deve ser possível obter o perfil de um usuário logado;
 - [ ] Deve ser possível obter o número de check-ins realizados pelo usuário logado;
-- [ ] Deve ser possível o usuário obter o seu histórico de check-ins;
+- [x] Deve ser possível o usuário obter o seu histórico de check-ins;
 - [ ] Deve ser possível o usuário buscar academias próximas;
 - [ ] Deve ser possível o usuário buscar academias pelo nome;
 - [x] Deve ser possível o usuário realizar check-in em uma academia;
@@ -43,7 +43,7 @@ Desenvolvido utilizando o node v18.16.1
 
 - [x] A senha do usuário precisa estar criptografada;
 - [x] Os dados da aplicação precisam estar persistidos em um banco PostgreSQL;
-- [ ] Todas listas de dados precisam estar paginadas com 20 itens por página;
+- [x] Todas listas de dados precisam estar paginadas com 20 itens por página;
 - [ ] O usuário deve ser identificado por um JWT (JSON Web Token);
 
 <a id="modulos"></a>
@@ -101,7 +101,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] Validando data do check-in
 - [x] Validando distância do check-in
 - [x] Caso de uso de criação de academia
-- [ ] Caso de uso de histórico
+- [x] Caso de uso de histórico
 - [ ] Caso de uso de métricas
 - [ ] Caso de uso de busca de academias
 - [ ] Caso de uso de academias próximas
