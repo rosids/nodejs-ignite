@@ -24,7 +24,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] Deve ser possível obter o perfil de um usuário logado;
 - [x] Deve ser possível obter o número de check-ins realizados pelo usuário logado;
 - [x] Deve ser possível o usuário obter o seu histórico de check-ins;
-- [ ] Deve ser possível o usuário buscar academias próximas;
+- [x] Deve ser possível o usuário buscar academias próximas (até 10km);
 - [x] Deve ser possível o usuário buscar academias pelo nome;
 - [x] Deve ser possível o usuário realizar check-in em uma academia;
 - [ ] Deve ser possível validar o check-in de um usuário;
@@ -104,7 +104,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] Caso de uso de histórico
 - [x] Caso de uso de métricas
 - [x] Caso de uso de busca de academias
-- [ ] Caso de uso de academias próximas
+- [x] Caso de uso de academias próximas
 - [ ] Caso de uso de validar de check-in
 - [ ] Validando horário do check-in
 
