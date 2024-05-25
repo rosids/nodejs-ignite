@@ -22,7 +22,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] Deve ser possível se cadastrar;
 - [x] Deve ser possível se autenticar;
 - [x] Deve ser possível obter o perfil de um usuário logado;
-- [ ] Deve ser possível obter o número de check-ins realizados pelo usuário logado;
+- [x] Deve ser possível obter o número de check-ins realizados pelo usuário logado;
 - [x] Deve ser possível o usuário obter o seu histórico de check-ins;
 - [ ] Deve ser possível o usuário buscar academias próximas;
 - [ ] Deve ser possível o usuário buscar academias pelo nome;
@@ -102,7 +102,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] Validando distância do check-in
 - [x] Caso de uso de criação de academia
 - [x] Caso de uso de histórico
-- [ ] Caso de uso de métricas
+- [x] Caso de uso de métricas
 - [ ] Caso de uso de busca de academias
 - [ ] Caso de uso de academias próximas
 - [ ] Caso de uso de validar de check-in
