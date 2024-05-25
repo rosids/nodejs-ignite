@@ -26,9 +26,9 @@ Desenvolvido utilizando o node v18.16.1
 - [ ] Deve ser possível o usuário obter o seu histórico de check-ins;
 - [ ] Deve ser possível o usuário buscar academias próximas;
 - [ ] Deve ser possível o usuário buscar academias pelo nome;
-- [ ] Deve ser possível o usuário realizar check-in em uma academia;
+- [x] Deve ser possível o usuário realizar check-in em uma academia;
 - [ ] Deve ser possível validar o check-in de um usuário;
-- [ ] Deve ser possível cadastrar uma academia;
+- [x] Deve ser possível cadastrar uma academia;
 
 ### RNs (Regras de negócio)
 
@@ -100,7 +100,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] TDD & Mocking
 - [x] Validando data do check-in
 - [x] Validando distância do check-in
-- [ ] Caso de uso de criação de academia
+- [x] Caso de uso de criação de academia
 - [ ] Caso de uso de histórico
 - [ ] Caso de uso de métricas
 - [ ] Caso de uso de busca de academias
