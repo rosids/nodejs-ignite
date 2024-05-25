@@ -35,7 +35,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] O usuário não deve poder se cadastrar com um e-mail duplicado;
 - [x] O usuário não pode fazer 2 check-ins no mesmo dia;
 - [x] O usuário não pode fazer check-in se não estiver perto (100m) da academia;
-- [ ] O check-in só pode ser validado até 20 minutos após ser criado;
+- [x] O check-in só pode ser validado até 20 minutos após ser criado;
 - [ ] O check-in só pode ser validado por administradores;
 - [ ] A academia só pode ser cadastrada por administradores;
 
@@ -106,7 +106,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] Caso de uso de busca de academias
 - [x] Caso de uso de academias próximas
 - [x] Caso de uso de validar de check-in
-- [ ] Validando horário do check-in
+- [x] Validando horário do check-in
 
 ### Controllers & Testes E2E
 
