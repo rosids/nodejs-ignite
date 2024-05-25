@@ -27,7 +27,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] Deve ser possível o usuário buscar academias próximas (até 10km);
 - [x] Deve ser possível o usuário buscar academias pelo nome;
 - [x] Deve ser possível o usuário realizar check-in em uma academia;
-- [ ] Deve ser possível validar o check-in de um usuário;
+- [x] Deve ser possível validar o check-in de um usuário;
 - [x] Deve ser possível cadastrar uma academia;
 
 ### RNs (Regras de negócio)
@@ -105,7 +105,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] Caso de uso de métricas
 - [x] Caso de uso de busca de academias
 - [x] Caso de uso de academias próximas
-- [ ] Caso de uso de validar de check-in
+- [x] Caso de uso de validar de check-in
 - [ ] Validando horário do check-in
 
 ### Controllers & Testes E2E
