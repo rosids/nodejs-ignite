@@ -111,7 +111,7 @@ Desenvolvido utilizando o node v18.16.1
 ### Controllers & Testes E2E
 
 - [x] Repositórios do Prisma
-- [ ] Repositório de academias
+- [x] Repositório de academias
 - [ ] Factories dos casos de uso
 - [ ] Princípios da autenticação JWT
 - [ ] Implementando JWT no Fastify
