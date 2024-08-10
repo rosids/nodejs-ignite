@@ -110,7 +110,7 @@ Desenvolvido utilizando o node v18.16.1
 
 ### Controllers & Testes E2E
 
-- [ ] Repositórios do Prisma
+- [x] Repositórios do Prisma
 - [ ] Repositório de academias
 - [ ] Factories dos casos de uso
 - [ ] Princípios da autenticação JWT
