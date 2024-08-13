@@ -112,7 +112,7 @@ Desenvolvido utilizando o node v18.16.1
 
 - [x] Repositórios do Prisma
 - [x] Repositório de academias
-- [ ] Factories dos casos de uso
+- [x] Factories dos casos de uso
 - [ ] Princípios da autenticação JWT
 - [ ] Implementando JWT no Fastify
 - [ ] Controller de perfil
