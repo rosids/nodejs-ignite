@@ -114,7 +114,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] Repositório de academias
 - [x] Factories dos casos de uso
 - [x] Princípios da autenticação JWT
-- [ ] Implementando JWT no Fastify
+- [x] Implementando JWT no Fastify
 - [ ] Controller de perfil
 - [ ] Criando test environment
 - [ ] Organizando NPM scripts
