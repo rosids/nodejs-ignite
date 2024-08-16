@@ -115,7 +115,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] Factories dos casos de uso
 - [x] Princípios da autenticação JWT
 - [x] Implementando JWT no Fastify
-- [ ] Controller de perfil
+- [x] Controller de perfil
 - [ ] Criando test environment
 - [ ] Organizando NPM scripts
 - [ ] Test Environment do Prisma
