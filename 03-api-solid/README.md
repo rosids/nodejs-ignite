@@ -117,7 +117,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] Implementando JWT no Fastify
 - [x] Controller de perfil
 - [x] Criando test environment
-- [ ] Organizando NPM scripts
+- [x] Organizando NPM scripts
 - [ ] Test Environment do Prisma
 - [ ] Teste E2E do registro
 - [ ] Teste E2E da autenticação
