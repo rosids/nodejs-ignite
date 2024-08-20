@@ -120,7 +120,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] Organizando NPM scripts
 - [x] Test Environment do Prisma
 - [x] Teste E2E do registro
-- [ ] Teste E2E da autenticação
+- [x] Teste E2E da autenticação
 - [ ] Teste E2E do perfil
 - [ ] Controller de criação de academia
 - [ ] Outros controllers da academia
