@@ -119,7 +119,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] Criando test environment
 - [x] Organizando NPM scripts
 - [x] Test Environment do Prisma
-- [ ] Teste E2E do registro
+- [x] Teste E2E do registro
 - [ ] Teste E2E da autenticação
 - [ ] Teste E2E do perfil
 - [ ] Controller de criação de academia
