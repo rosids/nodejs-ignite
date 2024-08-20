@@ -118,7 +118,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] Controller de perfil
 - [x] Criando test environment
 - [x] Organizando NPM scripts
-- [ ] Test Environment do Prisma
+- [x] Test Environment do Prisma
 - [ ] Teste E2E do registro
 - [ ] Teste E2E da autenticação
 - [ ] Teste E2E do perfil
