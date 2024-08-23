@@ -124,7 +124,7 @@ Desenvolvido utilizando o node v18.16.1
 - [x] Teste E2E do perfil
 - [x] Controller de criação de academia
 - [x] Outros controllers da academia
-- [ ] Controllers das rotas de check-ins
+- [x] Controllers das rotas de check-ins
 - [ ] Testes E2E de rotas de academias
 - [ ] Testes E2E de rotas de check-ins
 
