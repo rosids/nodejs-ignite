@@ -131,7 +131,7 @@ Desenvolvido utilizando o node v18.16.1
 ### Refresh Token & RBAC
 
 - [x] Estratégia de refresh de token
-- [ ] Implementação do refresh token
+- [x] Implementação do refresh token
 - [ ] Autorização por cargos (RBAC)
 - [ ] Testes de RBAC
 
