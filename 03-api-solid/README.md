@@ -132,7 +132,7 @@ Desenvolvido utilizando o node v18.16.1
 
 - [x] Estratégia de refresh de token
 - [x] Implementação do refresh token
-- [ ] Autorização por cargos (RBAC)
+- [x] Autorização por cargos (RBAC)
 - [ ] Testes de RBAC
 
 ### CI/CD da aplicação
