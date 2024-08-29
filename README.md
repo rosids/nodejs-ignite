@@ -13,3 +13,7 @@ Nesse módulo iremos desenvolver uma API REST, mas dessa vez utilizando o Fastif
 ## [Projeto 3 - API Node.js com SOLID](https://github.com/rosids/nodejs-ignite/tree/main/03-api-solid)
 
 Nesse projeto será desenvolvido uma aplicação para check-ins em academias. Aqui você irá aprender sobre alguns conceitos do SOLID, Design Patterns, Docker para iniciar o banco de dados, JWT e Refresh Token, RBAC e diversos outros conceitos.
+
+## DDD no Node.js
+
+Nesse módulo você irá aprender os fundamentos de Domain-Driven Design e Clean Architecture na construção de uma API REST para um fórum. Você aprenderá a desenhar a arquitetura da aplicação utilizando conceitos de DDD, criar Value Objects e Relacionamentos, lidar com erros de forma funcional, desenvolver casos de uso, testes unitários, aplicar Subdomínios e Domain Events.
