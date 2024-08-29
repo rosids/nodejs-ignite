@@ -138,6 +138,6 @@ Desenvolvido utilizando o node v18.16.1
 ### CI/CD da aplicação
 
 - [x] Executando testes unitários no CI
-- [ ] Executando testes E2E no CI
+- [x] Executando testes E2E no CI
 
 ##### [Topo](#topo)
